@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACN - Pricing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-green {
+            background: linear-gradient(135deg, #065f46 0%, #10b981 50%, #34d399 100%);
+        }
+
+        .glass-effect {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .pricing-card {
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-8px);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md border-b border-green-100 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-14">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <a href="index.html" class="text-lg font-bold text-green-700 bg-green-50 px-3 py-1.5 rounded-md">ACN</a>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-6">
+                        <a href="index.html" class="text-gray-600 hover:text-green-700 hover:bg-green-50 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200">
+                            Home
+                        </a>
+                        <a href="#" class="text-green-700 bg-green-50 px-3 py-2 rounded-md text-sm font-medium">
+                            Pricing
+                        </a>
+                        <a href="#" class="text-gray-600 hover:text-green-700 hover:bg-green-50 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200">
+                            FAQ
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-3">
+                    <a href="#" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium shadow-sm hover:shadow-md transition-all duration-200 transform hover:scale-105">
+                        log in
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-white text-gray-900 py-20">
+        <div class="max-w-4xl mx-auto px-4 text-left">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-gray-900">Most agents schedule their first site visit within week one</h1>
+            <h2 class="text-2xl md:text-3xl font-semibold mb-8 text-gray-700">We believe in your growth. Your first month is completely free — no payments required.</h2>
+            <p class="text-lg md:text-xl mb-10 text-gray-600">
+                Experience our platform, get your first site visit, and see why you're in the right place.
+            </p>
+            <a href="#" class="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition duration-300 transform hover:scale-105 shadow-lg text-lg">
+                Start Your Free Trial
+            </a>
+        </div>
+    </section>
+
+    <!-- Membership Plan Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Plan Header -->
+            <div class="text-left mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-10">Membership Plan & Benefits</h2>
+                <div class="bg-white rounded-2xl p-8 border-2 border-green-200 max-w-md shadow-lg">
+                    <div class="text-left">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Yearly Plan</h3>
+                        <div class="mb-4">
+                            <span class="text-5xl font-bold text-green-600">₹9,999</span>
+                            <span class="text-gray-600 text-xl">/year</span>
+                        </div>
+                        <p class="text-gray-600 text-lg">₹833/month</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefits Grid -->
+            <div class="grid gap-10">
+                <div class="text-left mb-10">
+                    <h3 class="text-2xl font-bold text-gray-900">What You Get:</h3>
+                </div>
+
+                <!-- Benefit Cards -->
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-xl p-8 hover:shadow-lg transition-all border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-4">100 verified enquiries every month</h4>
+                                <p class="text-gray-600">Get high-quality, genuine leads that save you time and bring you closer to closing deals faster.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 hover:shadow-lg transition-all border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-4">Unlimited property listings</h4>
+                                <p class="text-gray-600">Showcase as many properties as you want without any restrictions, so every opportunity finds the right buyer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 hover:shadow-lg transition-all border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-4">Unlimited requirement listings</h4>
+                                <p class="text-gray-600">Post unlimited buyer or tenant requirements and let matching properties find you — no limits, no missed chances.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 hover:shadow-lg transition-all border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-4">Dedicated Key Account Manager (KAM) support</h4>
+                                <p class="text-gray-600">A personal expert who understands your business and helps you close more deals with ongoing support.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 hover:shadow-lg transition-all border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-4">Custom reports on new projects</h4>
+                                <p class="text-gray-600">Stay ahead of the market with detailed project reports created by our team, giving you insights before anyone else.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 hover:shadow-lg transition-all border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-4">Legal services support</h4>
+                                <p class="text-gray-600">From documentation to basic legal help, we make sure you don't need to run around — everything is handled for you in one place.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 hover:shadow-lg transition-all border border-gray-200 md:col-span-2">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-4">Resale and rental opportunities</h4>
+                                <p class="text-gray-600">Whether you're dealing with rentals, resale, or both — our platform makes it simple to capture and close opportunities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-left mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="space-y-8">
+                <div class="bg-gray-50 rounded-lg p-8 border border-gray-200">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Do you take any commission from my deals?</h3>
+                    <p class="text-gray-600">No, ACN is membership-based. You keep 100% of your commission from every deal. We only charge the monthly subscription fee.</p>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 border border-gray-200">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Can I upgrade or downgrade my plan anytime?</h3>
+                    <p class="text-gray-600">Yes, you can change your plan at any time. Upgrades are effective immediately, and downgrades take effect at the next billing cycle.</p>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 border border-gray-200">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Is there a free trial available?</h3>
+                    <p class="text-gray-600">Yes, we offer a 7-day free trial for all plans. No credit card required to start your trial.</p>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 border border-gray-200">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">What payment methods do you accept?</h3>
+                    <p class="text-gray-600">We accept all major credit cards, debit cards, UPI, and bank transfers. All payments are processed securely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gradient-green py-20">
+        <div class="max-w-4xl mx-auto px-4 text-left">
+            <h2 class="text-3xl font-bold text-white mb-6">One month free. Full access. No commitments.</h2>
+            <p class="text-xl text-green-50 mb-10">Experience first-hand why thousands of agents trust us to grow their business.</p>
+            <a href="#" class="bg-white text-green-700 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition duration-300 transform hover:scale-105 shadow-lg text-lg">
+                Start Your Free Trial
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-800 py-8 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-4">
+                <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                    <span class="text-white font-bold text-lg">ACN</span>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-green-300 transition-colors">Contact Us</a>
+                    <a href="#" class="hover:text-green-300 transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-green-300 transition-colors">Terms & Conditions</a>
+                </div>
+            </div>
+            <div class="text-green-200 text-xs text-center">
+                © 2024 ACN. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
